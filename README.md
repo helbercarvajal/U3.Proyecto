@@ -1,8 +1,6 @@
 # 20191.DL Fundamentos de Deep Learning
-
      
 ## Proyecto U3: Redes Convolucionales
-
 
 Para el presente proyecto, solo debe ejecutar el _notebook_ U3.Proyecto.
 
@@ -12,7 +10,14 @@ A continuación se indican las tareas realizadas de acuerdo con lo pedido en el 
 - Tarea de aprendizaje y métrica de evaluación: clasificación de 29 gestos de la mano (A-Z, espacio, borrar, nada). Se evaluó mediante el cálculo de la exactitud. Se graficaron curvas de aprendizaje y matriz de confusión.
 - Estrategia de resolución:  se evaluaron distintas arquitecturas de red con diferente dropout, se evaluó el efecto de la _batch normalization_, y se hizo _transfer learning_ utilizando AlexNet.
 - Flujo de trabajo experimental:
+
                1. Evaluación de 4 arquitecturas
+                   1.1 Modelo A
+                   1.2 Modelo B
+                   1.3 Modelo C
+                   1.4 Modelo D
+                   1.5 Comparación de los modelos
+                   1.6 Matriz de confusión en validación y test
                2. _Transfer learning_ con AlexNet
                3. Efecto de la _batch normalization_
                4. Prueba de clasificación en video usando el mejor modelo
